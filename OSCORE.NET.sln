@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldDirect.Oscore", "WorldDirect.Oscore\WorldDirect.Oscore.csproj", "{C45C3D9A-BEE9-4400-BE26-C66A5EB43731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldDirect.Oscore", "WorldDirect.Oscore\WorldDirect.Oscore.csproj", "{C45C3D9A-BEE9-4400-BE26-C66A5EB43731}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscore.Specs", "Oscore.Specs\Oscore.Specs.csproj", "{EE7A6246-18AA-4DFC-9EF3-9C1AE10E10AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oscore.Specs", "Oscore.Specs\Oscore.Specs.csproj", "{EE7A6246-18AA-4DFC-9EF3-9C1AE10E10AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B66BAB4-3710-4DC0-9622-9150C6973B93}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

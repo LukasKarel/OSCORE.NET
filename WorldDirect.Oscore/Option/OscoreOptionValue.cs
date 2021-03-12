@@ -7,10 +7,13 @@ namespace WorldDirect.Oscore.Option
 {
     public struct OscoreOptionValue
     {
-        public UInt3 Length { get; set; }
+        public ReadOnlyMemory<byte> PartialIV;
 
-        public bool KeyIdFlag { get; set; }
+        public ReadOnlyMemory<byte> KidContext;
 
-        public override string ToString() => $"{Length} - {KeyIdFlag}";
+        public ReadOnlyMemory<byte> Kid;
+
+
+        //public override string ToString() => $"{Length} - {KeyIdFlag}";
     }
 }
